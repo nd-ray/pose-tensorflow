@@ -17,7 +17,7 @@ cfg = load_config("demo/pose_cfg.yaml")
 sess, inputs, outputs = predict.setup_pose_prediction(cfg)
 
 # Read image from file
-file_name = "demo/image.png"
+file_name = "demo/aa.png"
 image = imread(file_name, mode='RGB')
 
 image_batch = data_to_input(image)

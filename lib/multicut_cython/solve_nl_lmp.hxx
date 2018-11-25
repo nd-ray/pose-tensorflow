@@ -6,7 +6,7 @@
 #include <algorithm>
 
 #include <vector>
-
+#include <array>
 #include <iostream>
 
 using namespace std;

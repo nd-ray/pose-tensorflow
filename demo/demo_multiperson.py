@@ -33,7 +33,7 @@ draw_multi = PersonDraw()
 sess, inputs, outputs = predict.setup_pose_prediction(cfg)
 
 # Read image from file
-file_name = "demo/image_multi.png"
+file_name = "demo/climber.jpg"
 image = imread(file_name, mode='RGB')
 
 image_batch = data_to_input(image)

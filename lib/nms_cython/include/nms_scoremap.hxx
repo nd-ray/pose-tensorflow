@@ -5,7 +5,7 @@
 // #include <numpy/arrayobject.h>
 
 #include <vector>
-
+#include <array>
 #include <iostream>
 
 // namespace bp = boost::python;
